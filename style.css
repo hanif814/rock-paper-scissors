@@ -1,0 +1,31 @@
+/* Basic page structure */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* Group buttons neatly */
+#buttons {
+  margin: 20px 0;
+}
+
+/* Improve button usability */
+button {
+  padding: 10px 16px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Result and score spacing */
+#results,
+#score {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+/* Restart button should feel secondary */
+#restart {
+  margin-top: 20px;
+}

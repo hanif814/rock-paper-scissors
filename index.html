@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="style.css">
+  
 </head>
 <body>
-    <h1>This game is based entirely on the console. </h1>
-    <script src="script.js"></script>
+
+  <!-- Main heading -->
+  <h1>Rock Paper Scissors</h1>
+
+  <!--
+    Button container:
+    Each button represents a possible player choice.
+    data-choice allows JavaScript to stay generic and scalable.
+  -->
+  <div id="buttons">
+    <button data-choice="rock">Rock</button>
+    <button data-choice="paper">Paper</button>
+    <button data-choice="scissors">Scissors</button>
+  </div>
+
+  <!-- Displays the result of the most recent round -->
+  <div id="results"></div>
+
+  <!-- Displays the running score -->
+  <div id="score"></div>
+
+  <!-- Restart button appears after game ends -->
+  <button id="restart">Restart Game</button>
+
+  <script src="script.js"></script>
 </body>
 </html>
